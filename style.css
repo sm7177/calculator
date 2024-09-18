@@ -61,3 +61,104 @@ body {
 .operator:focus,.number:focus,.empty:focus{
     outline: 0;
 }
+
+h1{
+    color: blanchedalmond;
+    animation: calcanim 2s ease 0s 1 normal forwards;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+@keyframes calcanim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: scale(7);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: scale(1.5);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: scale(1.24);
+	}
+
+	89% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: scale(1.04);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: center;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+#output{
+    text-align: center;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+button:nth-child(4){
+    background-color: cyan;
+    font-size: 20px;
+}
+
+button:nth-child(8){
+    background-color: palevioletred;
+    font-size: 20px;
+}
+
+button:nth-child(12){
+    background-color: green;
+    font-size: 20px;
+}
+
+button:nth-child(16){
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+
+button:nth-child(20){
+    background-color:purple;
+    font-size: 20px;
+}
+
+.operator:hover{
+    background-color: darkgrey;
+}
